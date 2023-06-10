@@ -17,22 +17,23 @@ html {
 home:focus {
   box-shadow: none !important;
 }
+
 .tagline {
-  
+
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 10px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+
+  border: 0px solid rgba(255, 255, 255, 0.5);
   font-size: 40px;
   margin-bottom: 16px;
   display: inline-block;
-  margin-left: 50px ;
+  margin-left: 50px;
   margin-right: 30px;
-    margin-top: -200px !important;
-    margin-bottom: 20px !important;
-   
-    left: 0 !important;
+  margin-top: -200px !important;
+  margin-bottom: 20px !important;
+
+  left: 0 !important;
 }
 
 .home h1 {
@@ -48,6 +49,7 @@ home:focus {
 .home img {
   animation: updown 3s linear infinite;
 }
+
 @keyframes updown {
   0% {
     transform: translateY(-20px);
@@ -239,7 +241,7 @@ home:focus {
   bottom: 1px;
   left: 0;
   z-index: -1;
-  
+
 }
 
 .navbar-nav .nav-item a:hover::after {

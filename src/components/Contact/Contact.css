@@ -1,0 +1,127 @@
+html {
+    --section-background-color: linear-gradient(to bottom left,
+            rgba(0, 0, 0, 0.582),
+            rgba(0, 0, 0, 0.904));
+
+    --image-gradient: linear-gradient(to bottom left,
+            rgba(5, 5, 5, 0.678),
+            rgba(0, 0, 0, 0.863));
+
+    --imp-text-color: #c7d7ed;
+}
+
+
+.about-section1 {
+    position: full !important;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+   
+    
+    
+
+}
+.tagline1 {
+
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 10px 10px;
+    background: linear-gradient(90.21deg, rgba(90, 84, 88, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: -200px !important;
+    margin-bottom: 20px !important;
+
+    left: 0 !important;
+}
+.c-right .button{
+    margin-top: 1px;
+    font-size: 22px;
+    border: 3px solid #ffffff;
+}
+.contact-form {
+
+    display: flex;
+    height: 150vh;
+    margin-top: 4rem;
+   
+
+}
+
+.c-left {
+    text-align: center !important;
+    padding-top: 25px;
+
+    color: white !important;
+}
+
+.c-right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.c-right>form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    align-items: center;
+
+}
+
+.c-right .user {
+    width: 24rem;
+    height: 3rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    font-size: 19px;
+    color: white
+}
+
+.c-right .user:hover {
+    box-shadow: 0 0 19px #26bfe9;
+}
+
+input {
+    background-color: var(--purple)
+}
+
+textarea {
+    height: 18.5rem !important;
+    background-color: var(--purple)
+}
+
+.done {
+    font-size: 19px;
+    color: green;
+}
+
+.not-done {
+    font-size: 19px;
+    color: red;
+}
+
+.c-blur1 {
+    top: 1rem;
+    left: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form {
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+
+    .c-right .user {
+        width: 16rem;
+    }
+
+}

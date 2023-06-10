@@ -34,9 +34,7 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-
       className={navColour ? "sticky" : "sticky"}
-
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
@@ -96,7 +94,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/contact"
                 onClick={() => updateExpanded(false)}
               >
                 <AiFillContacts style={{ marginBottom: "2px" }} /> Contact
