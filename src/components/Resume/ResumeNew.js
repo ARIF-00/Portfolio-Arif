@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Arif_Res.pdf";
+import pdf from "../../Assets/../Assets/Resume.pdf";
+import res from "../../Assets/../Assets/Res_Img2.png";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -37,9 +38,12 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
+          <img src={res} alt="home pic"
+            className=" d-flex justify-content-center"
+            style={{ maxHeight: "850px", maxWidth: "700px" }} />
+          {/* <Document file={resumeLink} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
+          </Document> */}
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>

@@ -10,14 +10,14 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <b>Arif Mohammed </b>
             from  <b>Silchar , Assam , India.</b>
-            <br />I am a final year student from <b>NIT Silchar .</b>
+            <br />I graduated from <b>NIT Silchar  .</b>
            
           </p>          
         </blockquote>
         <blockquote className="blockquote mb-0">
           <br/>
         <p style={{ textAlign: "justify" }}>
-          <br />I am fluent in classics like
+          I am fluent in classics like
             <b > C++, Javascript and Python. </b>          
           <br />
           <br />
