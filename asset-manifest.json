@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Arif/static/css/main.341404bb.css",
+    "main.js": "/Portfolio-Arif/static/js/main.8563b44b.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Portfolio-Arif/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Arif/static/js/787.1ed0c42c.chunk.js",
+    "static/media/about3.png": "/Portfolio-Arif/static/media/about3.ba2919b7000655a39a48.png",
+    "static/media/anime.gif": "/Portfolio-Arif/static/media/anime.f57a526aa8a8b9245a9d.gif",
+    "static/media/neww.gif": "/Portfolio-Arif/static/media/neww.d86f3963f6749835c821.gif",
+    "static/media/Res_Img2.png": "/Portfolio-Arif/static/media/Res_Img2.ee1d0ef1c7a8d3c5eb5d.png",
+    "static/media/Resume.pdf": "/Portfolio-Arif/static/media/Resume.005a7f563f702bd13c30.pdf",
+    "static/media/header-img.svg": "/Portfolio-Arif/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/Project_Solar.png": "/Portfolio-Arif/static/media/Project_Solar.7df28a6a357fa9fbf59e.png",
+    "static/media/news2.jpg": "/Portfolio-Arif/static/media/news2.67e6a36d622167cb46b8.jpg",
+    "static/media/avatar.svg": "/Portfolio-Arif/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "index.html": "/Portfolio-Arif/index.html",
+    "main.341404bb.css.map": "/Portfolio-Arif/static/css/main.341404bb.css.map",
+    "main.8563b44b.js.map": "/Portfolio-Arif/static/js/main.8563b44b.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Portfolio-Arif/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio-Arif/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.341404bb.css",
+    "static/js/main.8563b44b.js"
+  ]
+}
